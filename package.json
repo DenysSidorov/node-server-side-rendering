@@ -1,0 +1,39 @@
+{
+  "name": "node-server-side-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenysSidorov/node-server-side-rendering.git"
+  },
+  "keywords": [
+    "node",
+    "ssr",
+    "react",
+    "redux",
+    "express"
+  ],
+  "author": "Denys Sidorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenysSidorov/node-server-side-rendering/issues"
+  },
+  "homepage": "https://github.com/DenysSidorov/node-server-side-rendering#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
